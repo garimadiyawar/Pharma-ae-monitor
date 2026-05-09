@@ -28,7 +28,7 @@ All steps are traced in LangSmith for full observability.
 
 ```bash
 # 1. Clone and install
-git clone https://github.com/garimadiyawar/pharma-ae-monitor
+git clone https://github.com/garimadiyawar/Pharma-ae-monitor
 cd pharma-ae-monitor
 pip install -r requirements.txt
 
