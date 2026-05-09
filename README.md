@@ -28,13 +28,13 @@ All steps are traced in LangSmith for full observability.
 
 ```bash
 # 1. Clone and install
-git clone https://github.com/garimadiyawar/pharma-ae-monitor
-cd pharma-ae-monitor
+git clone https://github.com/garimadiyawar/Pharma-ae-monitor
+cd Pharma-ae-monitor
 pip install -r requirements.txt
 
 # 2. Configure environment
 cp .env.example .env
-# Fill in ANTHROPIC_API_KEY and LANGCHAIN_API_KEY
+# Fill in GROQ_API_KEY and LANGCHAIN_API_KEY
 
 # 3. Run the Streamlit UI
 streamlit run app.py
